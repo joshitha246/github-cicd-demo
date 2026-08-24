@@ -25,5 +25,5 @@ jobs:
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: StudentApp-JAR
+          name: github-cicd-demo-JAR
           path: target/*.jar
